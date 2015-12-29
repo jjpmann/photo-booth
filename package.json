@@ -1,0 +1,28 @@
+{
+  "name": "photo-booth",
+  "version": "0.0.1",
+  "description": "Web page for photo booth images and API for collecting and sharing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjpmann/photo-booth.git"
+  },
+  "keywords": [
+    "photo booth"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjpmann/photo-booth/issues"
+  },
+  "homepage": "https://github.com/jjpmann/photo-booth#readme",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "express": "^4.13.3",
+    "hipchat-message": "^0.1.5",
+    "hipchat-notify": "^1.0.3"
+  }
+}
