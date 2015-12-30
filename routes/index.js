@@ -4,20 +4,12 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('index', { title: 'Express' });
+    res.render('index', { title: 'LMO Photo Booth' });
 });
 
-/* POST TEST */
-router.post('/', function(req, res, next) {
-    
-    //console.log( req.files );
-    //res.set('Content-Type', 'text/xml');
-    if (false) {
-        res.render('xmlError', { layout: false, message: "Something broke!"});
-    } else {
-        res.render('xmlSuccess', { layout: false });
-    }
-    
+/* GET home page. */
+router.get('/about', function(req, res, next) {
+    res.render('about', { title: 'About' });
 });
 
 
