@@ -34,7 +34,7 @@ router.post('/save', function(req, res, next) {
     var msg = req.body.message + ' ('+req.body.Filename+')';
 
     console.log( req.body );
-    var link = 'http://lmodev.com:8888/api/image/' + req.files[0].filename;
+    var link = 'http://old.lmodev.com:8888/api/image/' + req.files[0].filename;
 
     msg += "\n";
     msg += link;
